@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: alphasparrow
+    env: python
+    buildCommand: "pip install -r requirements.txt"  # Ya "poetry install"
+    startCommand: "python ttbs.py"
